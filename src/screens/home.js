@@ -1,5 +1,26 @@
-import React from "react";
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+import { connect } from 'react-redux';
 
-const Home = () => null;
+import { fetchQuestions } from '../redux/actions/FetchQuestions'
 
-export default Home;
+
+class Home extends Component {
+  componentDidMount() {
+    this.props.fetchQuestions()
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+
+      </View>
+    )
+  }
+}
+
+const styles = {
+  container: {}
+}
+
+export default connect(null, { fetchQuestions })(Home)
