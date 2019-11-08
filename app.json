@@ -3,7 +3,7 @@
     "name": "G2i mobile code challenge",
     "slug": "g2i-code-challenge-mobile-template",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
       "android"
