@@ -1,8 +1,10 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import ReduxThunk from 'redux-thunk';
 
+import questions from './questions';
+
 const root = combineReducers({
-  questions: () => {return []}
+  questions
 });
 
 const createStoreWithMiddleware = applyMiddleware(ReduxThunk)(createStore);
