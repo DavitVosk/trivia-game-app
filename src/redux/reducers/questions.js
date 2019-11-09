@@ -1,20 +1,21 @@
 import * as aT from "../actions/ActionTypes";
 
 const initialState = {
-  questions: [],
-  error_message: null
+  data: [],
+  error_message: null,
+  isLoading: false
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case aT.START_QUESTIONS_FETCHING:
-      return {questions: [], error_message: null};
+      return {data: [], error_message: null, isLoading: true};
 
     case aT.FETCH_QUESTIONS_SUCCESS:
-      return {questions: action.payload.questions, error_message: null};
+      return {data: action.payload.questions, error_message: null, isLoading: false};
 
     case aT.FETCH_QUESTIONS_ERROR:
-      return {questions: [], error_message: action.payload.error_message}
+      return {data: [], error_message: action.payload.error_message, isLoading: false}
   }
   return state;
 };

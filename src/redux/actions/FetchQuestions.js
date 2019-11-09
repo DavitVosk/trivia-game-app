@@ -9,6 +9,7 @@ export const fetchQuestions = () => dispatch => {
   return axios
     .get(requestUrl)
     .then(res => {
+      console.log( 'success', res );
       dispatch({
         type: aT.FETCH_QUESTIONS_SUCCESS,
         payload: {questions: res.data.results}
