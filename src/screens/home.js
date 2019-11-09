@@ -10,6 +10,10 @@ class Home extends Component {
     this.props.fetchQuestions()
   }
 
+  static navigationOptions = {
+    header: null
+  };
+
   render() {
     return (
       <View style={styles.container}>
