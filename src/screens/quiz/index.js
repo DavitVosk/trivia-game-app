@@ -32,7 +32,7 @@ class Quiz extends Component {
 
   render() {
     return (
-      <ImageBackground source={require('../../images/background.png')} style={styles.container}>
+      <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
         {
           this.props.isLoading ? <Loading /> :
             <SafeAreaView style={styles.container}>
