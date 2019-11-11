@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/objects.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/Card.js" afterPath="$PROJECT_DIR$/src/screens/quiz/Card.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" afterPath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/index.js" afterPath="$PROJECT_DIR$/src/screens/quiz/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="windowDimensions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="536">
+              <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,9 +79,9 @@
         <option value="$PROJECT_DIR$/CommonComponents/LinearGradientButton.js" />
         <option value="$PROJECT_DIR$/src/screens/home/index.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/Loading.js" />
-        <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
-        <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
+        <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
       </list>
     </option>
   </component>
@@ -247,12 +248,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25030000" />
+    <option name="totallyTimeSpent" value="25569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -264,12 +266,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,66 +688,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/quiz/CardsList.js">
+    <entry file="file://$PROJECT_DIR$/utils/objects.js" />
+    <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
-          <folding>
-            <marker date="1573503390232" expanded="true" signature="7:106" ph="..." />
-            <marker date="1573503390232" expanded="true" signature="222:1974" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="246:355" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="396:500" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="466:496" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="515:669" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="558:627" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="690:796" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="816:1066" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="897:979" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="994:1062" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1085:1860" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1180:1839" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1218:1252" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1292:1566" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1325:1543" ph="&lt;Animated.View/&gt;" />
-            <marker date="1573503390232" expanded="true" signature="1595:1821" ph="&lt;Animated.View/&gt;" />
-            <marker date="1573503390232" expanded="true" signature="1874:1972" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="1895:1962" ph="&lt;View/&gt;" />
-            <marker date="1573503390232" expanded="true" signature="1991:2063" ph="{...}" />
-            <marker date="1573503390232" expanded="true" signature="2006:2061" ph="{&quot;position&quot;: 'absolute'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <marker date="1573503404684" expanded="true" signature="7:312" ph="..." />
-            <marker date="1573503404684" expanded="true" signature="343:1725" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="367:425" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="449:486" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="517:539" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="573:844" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="648:839" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="719:833" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="771:824" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="858:1723" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="879:1713" ph="&lt;ImageBackground/&gt;" />
-            <marker date="1573503404684" expanded="true" signature="1039:1678" ph="&lt;SafeAreaView/&gt;" />
-            <marker date="1573503404684" expanded="true" signature="1093:1259" ph="&lt;View/&gt;" />
-            <marker date="1573503404684" expanded="true" signature="1275:1650" ph="&lt;View/&gt;" />
-            <marker date="1573503404684" expanded="true" signature="1742:1830" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="1757:1828" ph="{&quot;justifyContent&quot;: 'center'...}" />
-            <marker date="1573503404684" expanded="true" signature="1874:2001" ph="{...}" />
-            <marker date="1573503404684" expanded="true" signature="1885:1999" ph="{&quot;questions&quot;: questions.data...}" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/quiz/Card.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
+        <state relative-caret-position="814">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <marker date="1573503460464" expanded="true" signature="7:143" ph="..." />
@@ -750,18 +714,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/objects.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/quiz/CardsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="520">
+          <caret line="76" column="42" lean-forward="false" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <marker date="1573504043798" expanded="true" signature="7:106" ph="..." />
+            <marker date="1573504043798" expanded="true" signature="222:1989" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="246:355" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="396:500" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="466:496" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="515:669" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="558:627" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="690:796" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="816:1066" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="897:979" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="994:1062" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1085:1860" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1180:1839" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1218:1252" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1292:1566" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1325:1543" ph="&lt;Animated.View/&gt;" />
+            <marker date="1573504043798" expanded="true" signature="1595:1821" ph="&lt;Animated.View/&gt;" />
+            <marker date="1573504043798" expanded="true" signature="1874:1987" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="1895:1977" ph="&lt;View/&gt;" />
+            <marker date="1573504043798" expanded="true" signature="2006:2078" ph="{...}" />
+            <marker date="1573504043798" expanded="true" signature="2021:2076" ph="{&quot;position&quot;: 'absolute'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="536">
+          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
           <folding />
         </state>
       </provider>

@@ -36,7 +36,7 @@ class Quiz extends Component {
         {
           this.props.isLoading ? <Loading /> :
             <SafeAreaView style={styles.container}>
-              <View style={{flex: 3, justifyContent:'center'}}>
+              <View style={{flex: 4, justifyContent:'center'}}>
                 <CardsList questions={this.props.questions} responses={this.state.responses}/>
               </View>
 
