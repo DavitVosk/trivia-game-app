@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, Animated, Dimensions } from 'react-native';
 
-const SCREEN_WIDTH = Dimensions.get('window').width;
+import { isIOS } from '../../../utils/OS-types'
+import { windowWidth } from '../../../utils/windowDimensions'
+
 import Card from './Card'
 
 class CardsList extends Component {
@@ -19,7 +21,7 @@ class CardsList extends Component {
 
   swipeCard(){
     Animated.timing(this.state.position, {
-      toValue: { x: SCREEN_WIDTH, y: 0 },
+      toValue: { x: windowWidth, y: 0 },
       duration: 100
     }).start(() => this.onSwipeComplete());
   }
@@ -32,7 +34,7 @@ class CardsList extends Component {
   getCardStyle () {
     const { position } = this.state;
     const rotate = position.x.interpolate({
-      inputRange: [0, SCREEN_WIDTH],
+      inputRange: [0, windowWidth],
       outputRange: ['0deg', '120deg']
     });
 
@@ -74,7 +76,7 @@ class CardsList extends Component {
 
   render () {
     return (
-      <View style={{flex: 1, marginTop: 50}}>
+      <View style={{flex: 1, marginTop: isIOS ? 60 : 100}}>
         {this.renderCards()}
       </View>
     )
@@ -84,7 +86,7 @@ class CardsList extends Component {
 const styles = {
   cardStyle: {
     position: 'absolute',
-    width: SCREEN_WIDTH
+    width: windowWidth
   }
 };
 
