@@ -107,12 +107,12 @@ const styles = {
   bigTitle: {
     textAlign: 'center',
     fontSize: 32,
-    fontFamily: 'Avenir-Heavy',
+    fontFamily: 'Montserrat',
     color: '#7E768E',
     lineHeight: 35,
     fontWeight: '900'
   },
-  smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'ArialMT', color: '#615E67' },
+  smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'Roboto', color: '#615E67' },
 };
 
 export default Home

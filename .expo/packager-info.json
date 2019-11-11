@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 91077,
+  "packagerPort": 19003,
+  "packagerPid": 94944,
   "expoServerNgrokUrl": "https://48-mi3.davitvosk.triviagameapp.exp.direct",
   "packagerNgrokUrl": "https://packager.48-mi3.davitvosk.triviagameapp.exp.direct",
-  "ngrokPid": 91102
+  "ngrokPid": 94961
 }
