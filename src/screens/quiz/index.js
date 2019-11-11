@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity, SafeAreaView } from 'react-native';
+import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground } from 'react-native';
 import { connect } from 'react-redux'
 
 import { fetchQuestions } from '../../redux/actions/FetchQuestions';
@@ -33,27 +33,31 @@ class Quiz extends Component {
 
   render() {
     const questionCategory = getSafeIntolerant(() => this.props.questions[this.state.responses.length].category);
-    if(this.props.isLoading) return <Loading />;
 
     return (
-      <SafeAreaView style={styles.container}>
-        <View style={{flex:1}}>
-          <Text>{questionCategory}</Text>
-        </View>
+      <ImageBackground source={require('../../images/background.png')} style={styles.container}>
+        {
+          this.props.isLoading ? <Loading /> :
+            <SafeAreaView style={styles.container}>
+              <View style={{flex:1}}>
+                <Text>{questionCategory}</Text>
+              </View>
 
-        <View style={{flex: 3, justifyContent:'center'}}>
-          <CardsList questions={this.props.questions} responses={this.state.responses}/>
-        </View>
+              <View style={{flex: 3, justifyContent:'center'}}>
+                <CardsList questions={this.props.questions} responses={this.state.responses}/>
+              </View>
 
-        <View>
-          <Text>{this.state.responses.length+1}/{this.props.questions.length}</Text>
-        </View>
+              <View>
+                <Text>{this.state.responses.length+1}/{this.props.questions.length}</Text>
+              </View>
 
-        <View style={{flexDirection:'row', flex: 1}}>
-          <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('False')}><Text>FALSE</Text></TouchableOpacity>
-          <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('True')}><Text>TRUE</Text></TouchableOpacity>
-        </View>
-      </SafeAreaView>
+              <View style={{flexDirection:'row', flex: 1}}>
+                <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('False')}><Text>FALSE</Text></TouchableOpacity>
+                <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('True')}><Text>TRUE</Text></TouchableOpacity>
+              </View>
+            </SafeAreaView>
+        }
+      </ImageBackground>
     )
   }
 }

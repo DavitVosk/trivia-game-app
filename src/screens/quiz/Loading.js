@@ -5,7 +5,7 @@ const Loading = (props) => {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>Loading...</Text>
-        <ActivityIndicator size="large" color="#00695C" />
+        <ActivityIndicator size="large" color="#FF637B" />
       </View>
     )
 };
@@ -18,7 +18,7 @@ const styles = {
   },
   text: {
     fontWeight: 'bold',
-    fontSize: 17,
+    fontSize: 20,
   }
 };
 
