@@ -30,7 +30,7 @@ const styles = {
   },
   text: {
     color: 'white',
-    fontSize: 18,
+    fontSize: 25,
     alignSelf:'center'
   }
 };

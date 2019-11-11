@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommonComponents/LinearGradientButton.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.expo/packager-info.json" afterPath="$PROJECT_DIR$/.expo/packager-info.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonComponents/LinearGradientButton.js" afterPath="$PROJECT_DIR$/CommonComponents/LinearGradientButton.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/home/index.js" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="523">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -232,12 +232,12 @@
       <workItem from="1573496832057" duration="787000" />
       <workItem from="1573497710082" duration="117000" />
       <workItem from="1573497869317" duration="961000" />
-      <workItem from="1573498947734" duration="1162000" />
+      <workItem from="1573498947734" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22016000" />
+    <option name="totallyTimeSpent" value="22920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -543,25 +543,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home.js" />
-    <entry file="file://$PROJECT_DIR$/src/screens/results.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <marker date="1573327590260" expanded="true" signature="7:134" ph="..." />
-            <marker date="1573327590260" expanded="true" signature="168:798" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="199:249" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="263:796" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="339:432" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="513:606" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="629:786" ph="&lt;SafeAreaView/&gt;" />
-            <marker date="1573327590260" expanded="true" signature="815:834" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="878:927" ph="{...}" />
-            <marker date="1573327590260" expanded="true" signature="889:925" ph="{&quot;questions&quot;: questions.data...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/logo_3piece.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -639,24 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommonComponents/LinearGradientButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <marker date="1573499580060" expanded="true" signature="7:149" ph="..." />
-            <marker date="1573499580060" expanded="true" signature="196:689" ph="{...}" />
-            <marker date="1573499580060" expanded="true" signature="209:687" ph="{...}" />
-            <marker date="1573499580060" expanded="true" signature="340:677" ph="&lt;TouchableOpacity/&gt;" />
-            <marker date="1573499580060" expanded="true" signature="428:651" ph="&lt;LinearGradient/&gt;" />
-            <marker date="1573499580060" expanded="true" signature="706:978" ph="{...}" />
-            <marker date="1573499580060" expanded="true" signature="749:900" ph="{&quot;width&quot;: '100%'...}" />
-            <marker date="1573499580060" expanded="true" signature="910:976" ph="{&quot;color&quot;: 'white'...}" />
-            <marker date="1573499580060" expanded="true" signature="1017:1081" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -674,10 +637,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CommonComponents/LinearGradientButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <marker date="1573500353224" expanded="true" signature="7:149" ph="..." />
+            <marker date="1573500353224" expanded="true" signature="196:689" ph="{...}" />
+            <marker date="1573500353224" expanded="true" signature="209:687" ph="{...}" />
+            <marker date="1573500353224" expanded="true" signature="340:677" ph="&lt;TouchableOpacity/&gt;" />
+            <marker date="1573500353224" expanded="true" signature="428:651" ph="&lt;LinearGradient/&gt;" />
+            <marker date="1573500353224" expanded="true" signature="706:978" ph="{...}" />
+            <marker date="1573500353224" expanded="true" signature="749:900" ph="{&quot;width&quot;: '100%'...}" />
+            <marker date="1573500353224" expanded="true" signature="910:976" ph="{&quot;color&quot;: 'white'...}" />
+            <marker date="1573500353224" expanded="true" signature="1017:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/results.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <marker date="1573327590260" expanded="true" signature="7:134" ph="..." />
+            <marker date="1573327590260" expanded="true" signature="168:798" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="199:249" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="263:796" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="339:432" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="513:606" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="629:786" ph="&lt;SafeAreaView/&gt;" />
+            <marker date="1573327590260" expanded="true" signature="815:834" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="878:927" ph="{...}" />
+            <marker date="1573327590260" expanded="true" signature="889:925" ph="{&quot;questions&quot;: questions.data...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="523">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>

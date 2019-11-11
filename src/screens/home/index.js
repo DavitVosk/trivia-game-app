@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView} from 'react-native'
+import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView } from 'react-native'
 
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
 
@@ -58,16 +58,22 @@ class Home extends Component {
       <ImageBackground source={bgImageSource} style={styles.container}>
         {this.state.animFinished ?
           <SafeAreaView>
-            <View style={{flex: 1, justifyContent:'center', alignItems:'center'}}>
-              <Text style={styles.bigTitle}>Welcome to the</Text>
-              <Text style={styles.bigTitle}>TRIVIA Challenge!</Text>
-              <Text style={styles.smallTitle}>You will be presented with 10 TRUE or FALSE questions</Text>
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 16 }}>
+              <View style={{ marginBottom: 30 }}>
+                <Text style={styles.bigTitle}>Welcome to the</Text>
+                <Text style={styles.bigTitle}>TRIVIA Challenge!</Text>
+              </View>
 
-              <Text style={styles.smallTitle}>Can you score 100%?</Text>
+              <View>
+                <View style={{marginBottom: 10}}>
+                  <Text style={styles.smallTitle}>You will be presented with 10 TRUE or FALSE questions</Text>
+                </View>
+                <Text style={styles.smallTitle}>Can you score 100%?</Text>
+              </View>
             </View>
 
-            <View style={{flex: 1, alignItems:'center', justifyContent:'flex-end'}}>
-              <LinearGradientButton btnText={'Begin'} onPress={() => this.props.navigation.navigate('Quiz')}/>
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end' }}>
+              <LinearGradientButton btnText={'BEGIN'} onPress={() => this.props.navigation.navigate('Quiz')} />
             </View>
           </SafeAreaView>
           :
@@ -98,8 +104,15 @@ const styles = {
   container: { height: '100%', width: '100%', alignItems: 'center', justifyContent: 'center' },
   logoPiece: { height: 63, width: 63 },
   questionMark: { height: 36.33, width: 21.8, position: 'absolute' },
-  bigTitle: { textAlign: 'center', fontSize: 32, fontFamily: 'Avenir-Heavy', color:'#7E768E' },
-  smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'ArialMT', color:'#615E67' },
+  bigTitle: {
+    textAlign: 'center',
+    fontSize: 32,
+    fontFamily: 'Avenir-Heavy',
+    color: '#7E768E',
+    lineHeight: 35,
+    fontWeight: '900'
+  },
+  smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'ArialMT', color: '#615E67' },
 };
 
 export default Home
