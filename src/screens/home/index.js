@@ -70,7 +70,7 @@ class Home extends Component {
               </View>
             </View>
 
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end' }}>
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 40 }}>
               <LinearGradientButton btnText={'BEGIN'} onPress={() => this.props.navigation.navigate('Quiz')} />
             </View>
           </SafeAreaView>

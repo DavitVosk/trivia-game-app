@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/OS-types.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" afterPath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/home/index.js" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CardsList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/quiz/CardsList.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+            <state relative-caret-position="313">
+              <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -79,10 +78,10 @@
         <option value="$PROJECT_DIR$/src/screens/quiz/Loading.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/src/screens/home/index.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
         <option value="$PROJECT_DIR$/utils/OS-types.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
+        <option value="$PROJECT_DIR$/src/screens/home/index.js" />
       </list>
     </option>
   </component>
@@ -252,12 +251,12 @@
       <workItem from="1573497710082" duration="117000" />
       <workItem from="1573497869317" duration="961000" />
       <workItem from="1573498947734" duration="4176000" />
-      <workItem from="1573507323233" duration="151000" />
+      <workItem from="1573507323233" duration="360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26833000" />
+    <option name="totallyTimeSpent" value="27042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -615,13 +614,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <marker date="1573506677230" expanded="true" signature="7:380" ph="..." />
+            <marker date="1573506677230" expanded="true" signature="421:529" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="431:454" ph="{&quot;screen&quot;: Home...}" />
+            <marker date="1573506677230" expanded="true" signature="464:487" ph="{&quot;screen&quot;: Quiz...}" />
+            <marker date="1573506677230" expanded="true" signature="500:526" ph="{&quot;screen&quot;: Results...}" />
+            <marker date="1573506677230" expanded="true" signature="631:925" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="655:813" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="676:807" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="826:923" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="847:912" ph="&lt;Provider/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,8 +666,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/quiz/CardsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="706">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1573507448902" expanded="true" signature="7:244" ph="..." />
+            <marker date="1573507448902" expanded="true" signature="280:2059" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="304:413" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="454:558" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="524:554" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="573:726" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="616:684" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="747:853" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="873:1122" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="954:1035" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1050:1118" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1141:1916" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1236:1895" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1274:1308" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1348:1622" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1381:1599" ph="&lt;Animated.View/&gt;" />
+            <marker date="1573507448902" expanded="true" signature="1651:1877" ph="&lt;Animated.View/&gt;" />
+            <marker date="1573507448902" expanded="true" signature="1930:2057" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="1951:2047" ph="&lt;View/&gt;" />
+            <marker date="1573507448902" expanded="true" signature="2076:2147" ph="{...}" />
+            <marker date="1573507448902" expanded="true" signature="2091:2145" ph="{&quot;position&quot;: 'absolute'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="68" column="34" lean-forward="false" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
           <folding />
         </state>
       </provider>
