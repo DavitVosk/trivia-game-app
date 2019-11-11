@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.expo/packager-info.json" afterPath="$PROJECT_DIR$/.expo/packager-info.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/home/index.js" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -84,8 +79,8 @@
         <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
-        <option value="$PROJECT_DIR$/src/screens/home/index.js" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/screens/home/index.js" />
       </list>
     </option>
   </component>
@@ -259,7 +254,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26104000" />
+    <option name="totallyTimeSpent" value="26522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -676,6 +671,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1573506677230" expanded="true" signature="7:380" ph="..." />
+            <marker date="1573506677230" expanded="true" signature="421:529" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="431:454" ph="{&quot;screen&quot;: Home...}" />
+            <marker date="1573506677230" expanded="true" signature="464:487" ph="{&quot;screen&quot;: Quiz...}" />
+            <marker date="1573506677230" expanded="true" signature="500:526" ph="{&quot;screen&quot;: Results...}" />
+            <marker date="1573506677230" expanded="true" signature="631:925" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="655:813" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="676:807" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="826:923" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="847:912" ph="&lt;Provider/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -703,58 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fonts/Roboto-Regular.ttf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="114" column="70" lean-forward="false" selection-start-line="114" selection-start-column="70" selection-end-line="114" selection-end-column="70" />
-          <folding>
-            <marker date="1573506677226" expanded="true" signature="7:221" ph="..." />
-            <marker date="1573506677226" expanded="true" signature="252:3741" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="271:378" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="409:431" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="457:482" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="502:717" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="557:641" ph="{&quot;easing&quot;: Easing.linear...}" />
-            <marker date="1573506677226" expanded="true" signature="660:711" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="732:3739" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="797:857" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="923:990" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="1056:1123" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="1189:1256" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="1322:1388" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="1546:3729" ph="&lt;ImageBackground/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="1657:2564" ph="&lt;SafeAreaView/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="1684:2316" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="1796:1992" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2008:2296" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2031:2199" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2330:2538" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2587:3703" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2665:3070" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2719:2877" ph="&lt;Animated.Image/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="2892:3050" ph="&lt;Animated.Image/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="3084:3266" ph="&lt;Animated.Image/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="3280:3685" ph="&lt;View/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="3334:3492" ph="&lt;Animated.Image/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="3507:3665" ph="&lt;Animated.Image/&gt;" />
-            <marker date="1573506677226" expanded="true" signature="3758:4216" ph="{...}" />
-            <marker date="1573506677226" expanded="true" signature="3978:4120" ph="{&quot;textAlign&quot;: 'center'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="372">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding />
         </state>
       </provider>

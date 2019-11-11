@@ -57,7 +57,7 @@ class Home extends Component {
     return (
       <ImageBackground source={bgImageSource} style={styles.container}>
         {this.state.animFinished ?
-          <SafeAreaView>
+          <SafeAreaView style={{ paddingVertical: 40 }}>
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 16 }}>
               <View style={{ marginBottom: 30 }}>
                 <Text style={styles.bigTitle}>Welcome to the</Text>
@@ -65,9 +65,7 @@ class Home extends Component {
               </View>
 
               <View>
-                <View style={{marginBottom: 10}}>
-                  <Text style={styles.smallTitle}>You will be presented with 10 TRUE or FALSE questions</Text>
-                </View>
+                <Text style={styles.smallTitle}>You will be presented with 10 TRUE or FALSE questions</Text>
                 <Text style={styles.smallTitle}>Can you score 100%?</Text>
               </View>
             </View>
