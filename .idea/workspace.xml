@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_1piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_2piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_3piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_4piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/logo_5piece.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/screens/home.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/background_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/logo_2piece.png" afterPath="$PROJECT_DIR$/src/images/logo_2piece.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/logo_3piece.png" afterPath="$PROJECT_DIR$/src/images/logo_3piece.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/logo_4piece.png" afterPath="$PROJECT_DIR$/src/images/logo_4piece.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/logo_5piece.png" afterPath="$PROJECT_DIR$/src/images/logo_5piece.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.expo/packager-info.json" afterPath="$PROJECT_DIR$/.expo/packager-info.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/home/index.js" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="534">
+              <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -56,6 +54,7 @@
       <find>Stye</find>
       <find>StyleSh</find>
       <find>100000</find>
+      <find>logo_</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -123,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +140,19 @@
               <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
@@ -163,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -178,13 +190,13 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/screens/home" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,11 +243,15 @@
       <workItem from="1573324448220" duration="416000" />
       <workItem from="1573324907611" duration="3111000" />
       <workItem from="1573328926811" duration="2963000" />
+      <workItem from="1573458144413" duration="113000" />
+      <workItem from="1573477701268" duration="25000" />
+      <workItem from="1573479399585" duration="90000" />
+      <workItem from="1573496832057" duration="650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18030000" />
+    <option name="totallyTimeSpent" value="19639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -272,44 +288,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <marker date="1573328139148" expanded="true" signature="7:345" ph="..." />
-            <marker date="1573328139148" expanded="true" signature="386:494" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="396:419" ph="{&quot;screen&quot;: Home...}" />
-            <marker date="1573328139148" expanded="true" signature="429:452" ph="{&quot;screen&quot;: Quiz...}" />
-            <marker date="1573328139148" expanded="true" signature="465:491" ph="{&quot;screen&quot;: Results...}" />
-            <marker date="1573328139148" expanded="true" signature="596:708" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="609:706" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="630:695" ph="&lt;Provider/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -471,24 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/actions/ActionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -553,11 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="7:118" ph="..." />
-            <marker date="1554500728000" expanded="true" signature="143:437" ph="&lt;View/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="338:427" ph="&lt;TouchableOpacity/&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,29 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-611">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1573325887322" expanded="true" signature="7:106" ph="..." />
-            <marker date="1573325887322" expanded="true" signature="222:1850" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="246:355" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="396:500" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="466:496" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="515:669" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="558:627" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="690:796" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="816:1066" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="897:979" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="994:1062" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1085:1736" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1144:1715" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1182:1216" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1256:1486" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1289:1463" ph="&lt;Animated.View/&gt;" />
-            <marker date="1573325887322" expanded="true" signature="1515:1697" ph="&lt;Animated.View/&gt;" />
-            <marker date="1573325887322" expanded="true" signature="1750:1848" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1771:1838" ph="&lt;View/&gt;" />
-            <marker date="1573325887322" expanded="true" signature="1867:1940" ph="{...}" />
-            <marker date="1573325887322" expanded="true" signature="1882:1938" ph="{&quot;position&quot;: 'absolute'...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,23 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1573328139148" expanded="true" signature="7:345" ph="..." />
-            <marker date="1573328139148" expanded="true" signature="386:494" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="396:419" ph="{&quot;screen&quot;: Home...}" />
-            <marker date="1573328139148" expanded="true" signature="429:452" ph="{&quot;screen&quot;: Quiz...}" />
-            <marker date="1573328139148" expanded="true" signature="465:491" ph="{&quot;screen&quot;: Results...}" />
-            <marker date="1573328139148" expanded="true" signature="596:708" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="609:706" ph="{...}" />
-            <marker date="1573328139148" expanded="true" signature="630:695" ph="&lt;Provider/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home.js" />
     <entry file="file://$PROJECT_DIR$/src/screens/results.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,22 +602,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo_1piece.png">
+    <entry file="file://$PROJECT_DIR$/src/images/logo_3piece.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <marker date="1573328139148" expanded="true" signature="7:345" ph="..." />
+            <marker date="1573328139148" expanded="true" signature="386:494" ph="{...}" />
+            <marker date="1573328139148" expanded="true" signature="396:419" ph="{&quot;screen&quot;: Home...}" />
+            <marker date="1573328139148" expanded="true" signature="429:452" ph="{&quot;screen&quot;: Quiz...}" />
+            <marker date="1573328139148" expanded="true" signature="465:491" ph="{&quot;screen&quot;: Results...}" />
+            <marker date="1573328139148" expanded="true" signature="596:708" ph="{...}" />
+            <marker date="1573328139148" expanded="true" signature="609:706" ph="{...}" />
+            <marker date="1573328139148" expanded="true" signature="630:695" ph="&lt;Provider/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <marker date="1573317330305" expanded="true" signature="7:146" ph="..." />
+            <marker date="1573317330305" expanded="true" signature="177:192" ph="{&quot;questions&quot;: questions...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/logo_2piece.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/logo_3piece.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -713,10 +658,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo_4piece.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo_3piece.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo_2piece.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo_1piece.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/logo_5piece.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="534">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding />
         </state>
       </provider>

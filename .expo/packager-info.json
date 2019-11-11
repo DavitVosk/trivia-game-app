@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://48-mi3.davitvosk.triviagameapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.48-mi3.davitvosk.triviagameapp.exp.direct",
+  "ngrokPid": 88340
 }

@@ -5,6 +5,7 @@ class Home extends Component {
   constructor() {
     super();
     this.animatedValue = new Animated.Value(0);
+    this.state={animFinished: false}
   }
 
   static navigationOptions = {
@@ -23,7 +24,9 @@ class Home extends Component {
         duration: 1000,
         easing: Easing.linear,
       }
-    ).start();
+    ).start(() => {
+      this.setState({ animFinished: true })
+    });
   };
 
   render () {
@@ -47,10 +50,11 @@ class Home extends Component {
       inputRange: [0, .8, 1],
       outputRange: [0, 0, 1]
     });
+    const bgImageSource= this.state.animFinished ? require('../../images/background_2.png') : require('../../images/background.png');
 
     return (
-      <ImageBackground source={require('../../images/background.png')} style={styles.container}>
-        <View style={{alignItems:'center', justifyContent:'center'}}>
+      <ImageBackground source={bgImageSource} style={styles.container}>
+        {!this.state.animFinished && <View style={{alignItems:'center', justifyContent:'center'}}>
           <View style={{ flexDirection: 'row' }}>
             <Animated.Image source={require('../../images/logo_1piece.png')} style={[styles.logoPiece, {opacity: logo_1piece_opacity}]} />
             <Animated.Image source={require('../../images/logo_2piece.png')} style={[styles.logoPiece, {opacity: logo_2piece_opacity}]} />
@@ -62,7 +66,7 @@ class Home extends Component {
             <Animated.Image source={require('../../images/logo_4piece.png')} style={[styles.logoPiece, {opacity: logo_4piece_opacity}]} />
             <Animated.Image source={require('../../images/logo_3piece.png')} style={[styles.logoPiece, {opacity: logo_3piece_opacity}]} />
           </View>
-        </View>
+        </View>}
       </ImageBackground>
     )
   }
@@ -70,8 +74,8 @@ class Home extends Component {
 
 const styles = {
   container: { height: '100%', width: '100%', alignItems: 'center', justifyContent: 'center' },
-  logoPiece: { height: 50, width: 50 },
-  questionMark: {height: 30, width: 30, position:'absolute'}
+  logoPiece: { height: 63, width: 63 },
+  questionMark: {height: 36.33, width: 21.8, position:'absolute'}
 }
 
 export default Home
