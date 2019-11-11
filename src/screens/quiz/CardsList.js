@@ -43,8 +43,9 @@ class CardsList extends Component {
   }
 
   renderCards () {
+    const {responses, questions} = this.props;
     return (
-      this.props.questions.map((item, i) => {
+      questions.map((item, i) => {
         if ( i < this.state.index ) {
           return null;
         }
@@ -55,7 +56,7 @@ class CardsList extends Component {
               key={i}
               style={[this.getCardStyle(), { zIndex: 2 }]}
               >
-              <Card data={item}/>
+              <Card data={item} responses={responses} questions={questions}/>
             </Animated.View>
           );
         }
@@ -64,7 +65,7 @@ class CardsList extends Component {
           <Animated.View
             key={i}
             style={[styles.cardStyle, { zIndex: 1, top: 10 * (i - this.state.index) }]}>
-            <Card data={item}/>
+            <Card data={item} responses={responses} questions={questions}/>
           </Animated.View>
         )
       }).reverse()
@@ -83,7 +84,7 @@ class CardsList extends Component {
 const styles = {
   cardStyle: {
     position: 'absolute',
-    width: SCREEN_WIDTH,
+    width: SCREEN_WIDTH
   }
 };
 
