@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/objects.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/Card.js" afterPath="$PROJECT_DIR$/src/screens/quiz/Card.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" afterPath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/index.js" afterPath="$PROJECT_DIR$/src/screens/quiz/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
+      <file leaf-file-name="windowDimensions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="135">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -80,9 +78,9 @@
         <option value="$PROJECT_DIR$/CommonComponents/LinearGradientButton.js" />
         <option value="$PROJECT_DIR$/src/screens/home/index.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/Loading.js" />
-        <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
       </list>
     </option>
   </component>
@@ -244,18 +242,17 @@
       <workItem from="1573496832057" duration="787000" />
       <workItem from="1573497710082" duration="117000" />
       <workItem from="1573497869317" duration="961000" />
-      <workItem from="1573498947734" duration="4120000" />
+      <workItem from="1573498947734" duration="4176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24974000" />
+    <option name="totallyTimeSpent" value="25030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -661,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -682,40 +671,6 @@
             <marker date="1573328139148" expanded="true" signature="596:708" ph="{...}" />
             <marker date="1573328139148" expanded="true" signature="609:706" ph="{...}" />
             <marker date="1573328139148" expanded="true" signature="630:695" ph="&lt;Provider/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-          <folding>
-            <marker date="1573325018493" expanded="true" signature="143:682" ph="{...}" />
-            <marker date="1573325018493" expanded="true" signature="330:456" ph="{...}" />
-            <marker date="1573325018493" expanded="true" signature="401:435" ph="{...}" />
-            <marker date="1573325018493" expanded="true" signature="467:680" ph="{...}" />
-            <marker date="1573325018493" expanded="true" signature="498:653" ph="{...}" />
-            <marker date="1573325018493" expanded="true" signature="506:647" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/quiz/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <marker date="1573503260788" expanded="true" signature="7:202" ph="..." />
-            <marker date="1573503260788" expanded="true" signature="229:818" ph="{...}" />
-            <marker date="1573503260788" expanded="true" signature="466:810" ph="&lt;View/&gt;" />
-            <marker date="1573503260788" expanded="true" signature="563:707" ph="&lt;View/&gt;" />
-            <marker date="1573503260788" expanded="true" signature="717:796" ph="&lt;View/&gt;" />
-            <marker date="1573503260788" expanded="true" signature="836:1327" ph="{...}" />
-            <marker date="1573503260788" expanded="true" signature="851:1165" ph="{&quot;alignItems&quot;: 'center'...}" />
-            <marker date="1573503260788" expanded="true" signature="1179:1245" ph="{&quot;color&quot;: '##BCBCBC'...}" />
-            <marker date="1573503260788" expanded="true" signature="1259:1325" ph="{&quot;color&quot;: '##726393'...}" />
-            <marker date="1573503260788" expanded="true" signature="1351:2857" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -752,8 +707,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/quiz/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="131">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <marker date="1573503404684" expanded="true" signature="7:312" ph="..." />
+            <marker date="1573503404684" expanded="true" signature="343:1725" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="367:425" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="449:486" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="517:539" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="573:844" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="648:839" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="719:833" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="771:824" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="858:1723" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="879:1713" ph="&lt;ImageBackground/&gt;" />
+            <marker date="1573503404684" expanded="true" signature="1039:1678" ph="&lt;SafeAreaView/&gt;" />
+            <marker date="1573503404684" expanded="true" signature="1093:1259" ph="&lt;View/&gt;" />
+            <marker date="1573503404684" expanded="true" signature="1275:1650" ph="&lt;View/&gt;" />
+            <marker date="1573503404684" expanded="true" signature="1742:1830" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="1757:1828" ph="{&quot;justifyContent&quot;: 'center'...}" />
+            <marker date="1573503404684" expanded="true" signature="1874:2001" ph="{...}" />
+            <marker date="1573503404684" expanded="true" signature="1885:1999" ph="{&quot;questions&quot;: questions.data...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/quiz/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <marker date="1573503460464" expanded="true" signature="7:143" ph="..." />
+            <marker date="1573503460464" expanded="true" signature="169:758" ph="{...}" />
+            <marker date="1573503460464" expanded="true" signature="406:750" ph="&lt;View/&gt;" />
+            <marker date="1573503460464" expanded="true" signature="503:647" ph="&lt;View/&gt;" />
+            <marker date="1573503460464" expanded="true" signature="657:736" ph="&lt;View/&gt;" />
+            <marker date="1573503460464" expanded="true" signature="776:1267" ph="{...}" />
+            <marker date="1573503460464" expanded="true" signature="791:1105" ph="{&quot;alignItems&quot;: 'center'...}" />
+            <marker date="1573503460464" expanded="true" signature="1119:1185" ph="{&quot;color&quot;: '##BCBCBC'...}" />
+            <marker date="1573503460464" expanded="true" signature="1199:1265" ph="{&quot;color&quot;: '##726393'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/windowDimensions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
