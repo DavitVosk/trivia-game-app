@@ -11,9 +11,8 @@ class Results extends Component {
   };
 
   render() {
-    console.log('xcggb', this.props.questions);
     const correctAnsweredQuestions=this.props.questions.reduce((total,q)=>{
-      if(q.answeredCorrectly) return total+1;
+      if(q.answered_correctly) return total+1;
       return total
     }, 0);
 

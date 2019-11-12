@@ -21,7 +21,7 @@ export default (state = initialState, action) => {
       const {answer, question_index} = action.payload;
       const newData = state.data.map((i, index) => {
         if(index===question_index){
-          return {...i, answeredCorrectly: i.correct_answer === answer}
+          return {...i, answered_correctly: i.correct_answer === answer}
         }
         return i
       });
