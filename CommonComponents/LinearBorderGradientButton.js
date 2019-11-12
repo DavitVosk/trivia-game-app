@@ -31,7 +31,7 @@ const styles = {
     borderRadius: 5,
   },
   text: {
-    color: 'black',
+    color: '#00C8C8',
     fontSize: 25,
     alignSelf: 'center'
   }
