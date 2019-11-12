@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/results/QuestionRow.js" afterPath="$PROJECT_DIR$/src/screens/results/QuestionRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/results/index.js" afterPath="$PROJECT_DIR$/src/screens/results/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="QuestionRow.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/results/QuestionRow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -91,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
         <option value="$PROJECT_DIR$/CommonComponents/LinearBorderGradientButton.js" />
         <option value="$PROJECT_DIR$/src/screens/results/List.js" />
-        <option value="$PROJECT_DIR$/src/screens/results/QuestionRow.js" />
         <option value="$PROJECT_DIR$/src/screens/results/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/results/QuestionRow.js" />
       </list>
     </option>
   </component>
@@ -297,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35873000" />
+    <option name="totallyTimeSpent" value="35973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -782,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/results/QuestionRow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding />
         </state>
       </provider>

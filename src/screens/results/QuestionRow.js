@@ -37,7 +37,7 @@ const styles = {
     borderColor: 'gray',
     borderWidth: .5,
     justifyContent:'center',
-    padding: 10
+    padding: 20
   },
   view2: {
     flex: 1,
