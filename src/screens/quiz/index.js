@@ -5,6 +5,8 @@ import { connect } from 'react-redux'
 import { fetchQuestions } from '../../redux/actions/FetchQuestions';
 import CardsList  from './CardsList';
 import Loading  from './Loading';
+import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
+import LinearBorderGradientButton from '../../../CommonComponents/LinearBorderGradientButton'
 
 class Quiz extends Component {
   constructor (props) {
@@ -40,9 +42,9 @@ class Quiz extends Component {
                 <CardsList questions={this.props.questions} responses={this.state.responses}/>
               </View>
 
-              <View style={{flexDirection:'row', flex: 1}}>
-                <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('False')}><Text>FALSE</Text></TouchableOpacity>
-                <TouchableOpacity style={{flex:1, alignItems:'center'}} onPress={()=>this.questionAnswered('True')}><Text>TRUE</Text></TouchableOpacity>
+              <View style={{flexDirection:'row', flex: 1, marginHorizontal: 30}}>
+                <LinearBorderGradientButton containerStyle={{width:'50%', marginRight:5}} btnText={'FALSE'} onPress={()=>this.questionAnswered('False')} />
+                <LinearGradientButton containerStyle={{width:'50%'}} btnText={'TRUE'} onPress={()=>this.questionAnswered('True')} />
               </View>
             </SafeAreaView>
         }

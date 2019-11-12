@@ -25,7 +25,7 @@ const Card = (props) => {
 const styles = {
   container: {
     height: windowHeight/2,
-    width: windowWidth/1.2,
+    width: windowWidth - 60,
     alignItems:'center',
     backgroundColor:'#fff',
     shadowColor: 'grey',

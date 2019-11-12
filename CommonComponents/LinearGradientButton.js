@@ -23,7 +23,7 @@ const styles = {
   btnStyle: {
     height: 60,
     width: '100%',
-    alignSelf:'center',
+    alignItems:'center',
     justifyContent:'center',
     backgroundColor:'rgb(78,28,190)',
     borderRadius: 5
