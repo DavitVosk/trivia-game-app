@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Text, View, SafeAreaView, ImageBackground, FlatList } from 'react-native'
+import { Text, View, SafeAreaView, ImageBackground, FlatList, Platform } from 'react-native'
 import { connect } from 'react-redux'
+import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import List from './List'
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
@@ -22,7 +23,7 @@ class Results extends Component {
           </View>
 
           <LinearGradientButton
-            containerStyle={{ width: windowWidth - 40, paddingBottom: 40, marginTop: isIOS ? 60 : 100 }}
+            containerStyle={styles.btnContainer}
             btnText={'PLAY AGAIN'} onPress={() => this.props.navigation.navigate('Home')} />
         </SafeAreaView>
       </ImageBackground>
@@ -40,6 +41,18 @@ const styles = {
     color: '#726393',
     fontSize: 24,
     textAlign: 'center'
+  },
+  btnContainer: {
+    width: windowWidth - 40,
+    marginTop: isIOS ? 60 : 100,
+    ...Platform.select({
+      ios: {
+        paddingBottom: isIphoneX() ? 20 : 40
+      },
+      android: {
+        paddingBottom: 40
+      },
+    }),
   }
 };
 

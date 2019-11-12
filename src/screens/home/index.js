@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView } from 'react-native'
+import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView, Platform } from 'react-native'
+import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
 
@@ -70,7 +71,7 @@ class Home extends Component {
               </View>
             </View>
 
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 40 }}>
+            <View style={styles.btnContainer}>
               <LinearGradientButton btnText={'BEGIN'} onPress={() => this.props.navigation.navigate('Quiz')} />
             </View>
           </SafeAreaView>
@@ -111,6 +112,19 @@ const styles = {
     fontWeight: '900'
   },
   smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'Roboto', color: '#615E67' },
+  btnContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    ...Platform.select({
+      ios: {
+        paddingBottom: isIphoneX() ? 20 : 40
+      },
+      android: {
+        paddingBottom: 0
+      },
+    }),
+  }
 };
 
 export default Home

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground } from 'react-native';
+import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground, Platform } from 'react-native';
 import { connect } from 'react-redux'
+import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import { fetchQuestions, answerToQuestion } from '../../redux/actions/Questions';
 import CardsList from './CardsList';
@@ -40,13 +41,13 @@ class Quiz extends Component {
             <CardsList questions={this.props.questions} question_index={this.state.question_index} />
           </View>
 
-          <View style={{ flexDirection: 'row', flex: 1, marginHorizontal: 30 }}>
+          <View style={styles.btnContainer}>
             <LinearBorderGradientButton
-              containerStyle={{ width: '50%', marginRight: 5 }}
+              containerStyle={{ width: '50%', marginRight: 5, alignSelf:'flex-end' }}
               btnText={'FALSE'}
               onPress={() => this.questionAnswered('False')} />
             <LinearGradientButton
-              containerStyle={{ width: '50%' }}
+              containerStyle={{ width: '50%', alignSelf:'flex-end' }}
               btnText={'TRUE'}
               onPress={() => this.questionAnswered('True')} />
           </View>
@@ -61,6 +62,19 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  btnContainer:{
+    flexDirection: 'row',
+    flex: 1,
+    marginHorizontal: 30,
+    ...Platform.select({
+      ios: {
+        paddingBottom: isIphoneX() ? 20 : 40
+      },
+      android: {
+        paddingBottom: 40
+      },
+    }),
   }
 };
 
