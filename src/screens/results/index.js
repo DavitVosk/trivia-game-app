@@ -11,22 +11,20 @@ class Results extends Component {
   };
 
   render() {
-    const correctAnsweredQuestions=this.props.questions.filter((q,index)=>{
-      return q.correct_answer === this.props.navigation.state.params.responses[index]
-    });
-
-    const nonCorrectAnsweredQuestions=this.props.questions.filter((q,index)=>{
-      return q.correct_answer !== this.props.navigation.state.params.responses[index]
-    });
+    console.log('xcggb', this.props.questions);
+    const correctAnsweredQuestions=this.props.questions.reduce((total,q)=>{
+      if(q.answeredCorrectly) return total+1;
+      return total
+    }, 0);
 
     return (
       <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
         <SafeAreaView>
           <Text style={styles.result}>You scored</Text>
-          <Text style={styles.result}>{correctAnsweredQuestions.length}/{this.props.questions.length}</Text>
+          <Text style={styles.result}>{correctAnsweredQuestions}/{this.props.questions.length}</Text>
         </SafeAreaView>
 
-        <List correctAnsweredQuestions={correctAnsweredQuestions} nonCorrectAnsweredQuestions={nonCorrectAnsweredQuestions} />
+        <List/>
       </ImageBackground>
     )
   }

@@ -3,10 +3,10 @@ import { View, Text } from 'react-native'
 import { windowHeight, windowWidth } from '../../../utils/windowDimensions'
 
 const Card = (props) => {
-  const {responses, questions, data}= props;
+  const {question_index, questions, data}= props;
   const {category, question}= data;
   const questionsCount=questions.length;
-  const questionNumber = responses.length+1>questionsCount ? questionsCount:responses.length+1;
+  const questionNumber = question_index+1>questionsCount ? questionsCount:question_index+1;
   return (
       <View style={styles.container}>
         <Text style={styles.category}>{category}</Text>

@@ -14,7 +14,7 @@ class CardsList extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (this.props.responses.length !== nextProps.responses.length) {
+    if (this.props.question_index !== nextProps.question_index) {
       this.swipeCard()
     }
   }
@@ -45,7 +45,7 @@ class CardsList extends Component {
   }
 
   renderCards () {
-    const {responses, questions} = this.props;
+    const {question_index, questions} = this.props;
     return (
       questions.map((item, i) => {
         if ( i < this.state.index ) {
@@ -58,7 +58,7 @@ class CardsList extends Component {
               key={i}
               style={[this.getCardStyle(), { zIndex: 2 }]}
               >
-              <Card data={item} responses={responses} questions={questions}/>
+              <Card data={item} question_index={question_index} questions={questions}/>
             </Animated.View>
           );
         }
@@ -67,7 +67,7 @@ class CardsList extends Component {
           <Animated.View
             key={i}
             style={[styles.cardStyle, { zIndex: 1, top: 10 * (i - this.state.index) }]}>
-            <Card data={item} responses={responses} questions={questions}/>
+            <Card data={item} question_index={question_index} questions={questions}/>
           </Animated.View>
         )
       }).reverse()

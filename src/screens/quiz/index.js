@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground } from 'react-native';
 import { connect } from 'react-redux'
 
-import { fetchQuestions } from '../../redux/actions/FetchQuestions';
+import { fetchQuestions, answerToQuestion } from '../../redux/actions/Questions';
 import CardsList from './CardsList';
 import Loading from './Loading';
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
@@ -11,7 +11,7 @@ import LinearBorderGradientButton from '../../../CommonComponents/LinearBorderGr
 class Quiz extends Component {
   constructor (props) {
     super(props);
-    this.state = { responses: [] };
+    this.state = { question_index: 0 };
   }
 
   componentDidMount () {
@@ -23,11 +23,10 @@ class Quiz extends Component {
   };
 
   questionAnswered = (answer) => {
-    this.setState({ responses: [...this.state.responses, answer] }, () => {
-      if (this.state.responses.length === this.props.questions.length) {
-        this.props.navigation.navigate('Results', {
-          responses: this.state.responses
-        })
+    this.props.answerToQuestion({ answer, question_index: this.state.question_index });
+    this.setState({ question_index: this.state.question_index+1 }, () => {
+      if (this.state.question_index === this.props.questions.length) {
+        this.props.navigation.navigate('Results')
       }
     })
   };
@@ -38,7 +37,7 @@ class Quiz extends Component {
       <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
         <SafeAreaView style={styles.container}>
           <View style={{ flex: 4, justifyContent: 'center' }}>
-            <CardsList questions={this.props.questions} responses={this.state.responses} />
+            <CardsList questions={this.props.questions} question_index={this.state.question_index} />
           </View>
 
           <View style={{ flexDirection: 'row', flex: 1, marginHorizontal: 30 }}>
@@ -73,4 +72,4 @@ const mapStateToProps = ({ questions }) => {
   }
 };
 
-export default connect(mapStateToProps, { fetchQuestions })(Quiz)
+export default connect(mapStateToProps, { fetchQuestions, answerToQuestion })(Quiz)

@@ -16,6 +16,19 @@ export default (state = initialState, action) => {
 
     case aT.FETCH_QUESTIONS_ERROR:
       return {data: [], error_message: action.payload.error_message, isLoading: false}
+
+    case aT.QUESTION_ANSWERED:
+      const {answer, question_index} = action.payload;
+      const newData = state.data.map((i, index) => {
+        if(index===question_index){
+          return {...i, answeredCorrectly: i.correct_answer === answer}
+        }
+        return i
+      });
+      return {
+        ...state,
+        data: newData
+      }
   }
   return state;
 };
