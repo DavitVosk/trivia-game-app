@@ -16,7 +16,7 @@ class Results extends Component {
       <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
         <SafeAreaView style={{ flex: 1 }}>
           <View style={{flex: 4}}>
-            <List questions={this.props.questions} />
+            <List questions={this.props.questions} navigation={this.props.navigation} />
           </View>
 
           <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 40 }}>

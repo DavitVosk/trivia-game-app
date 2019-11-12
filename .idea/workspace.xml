@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonComponents/LinearBorderGradientButton.js" afterPath="$PROJECT_DIR$/CommonComponents/LinearBorderGradientButton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/results/List.js" afterPath="$PROJECT_DIR$/src/screens/results/List.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/results/index.js" afterPath="$PROJECT_DIR$/src/screens/results/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinearBorderGradientButton.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CommonComponents/LinearBorderGradientButton.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/screens/results/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="396">
+              <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -87,10 +88,10 @@
         <option value="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/Card.js" />
         <option value="$PROJECT_DIR$/src/screens/quiz/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/results/index.js" />
-        <option value="$PROJECT_DIR$/src/screens/results/List.js" />
         <option value="$PROJECT_DIR$/src/screens/results/QuestionRow.js" />
         <option value="$PROJECT_DIR$/CommonComponents/LinearBorderGradientButton.js" />
+        <option value="$PROJECT_DIR$/src/screens/results/index.js" />
+        <option value="$PROJECT_DIR$/src/screens/results/List.js" />
       </list>
     </option>
   </component>
@@ -295,13 +296,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34588000" />
+    <option name="totallyTimeSpent" value="35087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24968153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -668,67 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/results/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <marker date="1573579516343" expanded="true" signature="7:270" ph="..." />
-            <marker date="1573579516343" expanded="true" signature="304:964" ph="{...}" />
-            <marker date="1573579516343" expanded="true" signature="335:385" ph="{...}" />
-            <marker date="1573579516343" expanded="true" signature="400:962" ph="{...}" />
-            <marker date="1573579516343" expanded="true" signature="421:952" ph="&lt;ImageBackground/&gt;" />
-            <marker date="1573579516343" expanded="true" signature="522:927" ph="&lt;SafeAreaView/&gt;" />
-            <marker date="1573579516343" expanded="true" signature="567:663" ph="&lt;View/&gt;" />
-            <marker date="1573579516343" expanded="true" signature="675:903" ph="&lt;View/&gt;" />
-            <marker date="1573579516343" expanded="true" signature="981:1152" ph="{...}" />
-            <marker date="1573579516343" expanded="true" signature="996:1069" ph="{&quot;justifyContent&quot;: 'center'...}" />
-            <marker date="1573579516343" expanded="true" signature="1081:1150" ph="{&quot;color&quot;: '##726393'...}" />
-            <marker date="1573579516343" expanded="true" signature="1198:1247" ph="{...}" />
-            <marker date="1573579516343" expanded="true" signature="1209:1245" ph="{&quot;questions&quot;: questions.data...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/results/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <marker date="1573580645543" expanded="true" signature="7:181" ph="..." />
-            <marker date="1573580645543" expanded="true" signature="212:1038" ph="{...}" />
-            <marker date="1573580645543" expanded="true" signature="226:1036" ph="{...}" />
-            <marker date="1573580645543" expanded="true" signature="334:410" ph="{...}" />
-            <marker date="1573580645543" expanded="true" signature="448:678" ph="{...}" />
-            <marker date="1573580645543" expanded="true" signature="473:664" ph="&lt;View/&gt;" />
-            <marker date="1573580645543" expanded="true" signature="700:1026" ph="&lt;FlatList/&gt;" />
-            <marker date="1573580645543" expanded="true" signature="1055:1343" ph="{...}" />
-            <marker date="1573580645543" expanded="true" signature="1070:1220" ph="{&quot;borderColor&quot;: &quot;##C4C4C4&quot;...}" />
-            <marker date="1573580645543" expanded="true" signature="1232:1301" ph="{&quot;color&quot;: '##726393'...}" />
-            <marker date="1573580645543" expanded="true" signature="1313:1341" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/results/QuestionRow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <marker date="1573580934046" expanded="true" signature="7:190" ph="..." />
-            <marker date="1573580934046" expanded="true" signature="228:845" ph="{...}" />
-            <marker date="1573580934046" expanded="true" signature="241:843" ph="{...}" />
-            <marker date="1573580934046" expanded="true" signature="550:833" ph="&lt;View/&gt;" />
-            <marker date="1573580934046" expanded="true" signature="589:698" ph="&lt;View/&gt;" />
-            <marker date="1573580934046" expanded="true" signature="708:819" ph="&lt;View/&gt;" />
-            <marker date="1573580934046" expanded="true" signature="862:1232" ph="{...}" />
-            <marker date="1573580934046" expanded="true" signature="877:982" ph="{&quot;backgroundColor&quot;: 'white'...}" />
-            <marker date="1573580934046" expanded="true" signature="993:1102" ph="{&quot;borderColor&quot;: 'gray'...}" />
-            <marker date="1573580934046" expanded="true" signature="1113:1230" ph="{&quot;borderColor&quot;: 'gray'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommonComponents/LinearGradientButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -779,6 +718,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <marker date="1573581216146" expanded="true" signature="7:155" ph="..." />
+            <marker date="1573581216146" expanded="true" signature="208:844" ph="{...}" />
+            <marker date="1573581216146" expanded="true" signature="222:842" ph="{...}" />
+            <marker date="1573581216146" expanded="true" signature="355:832" ph="&lt;TouchableOpacity/&gt;" />
+            <marker date="1573581216146" expanded="true" signature="443:806" ph="&lt;LinearGradient/&gt;" />
+            <marker date="1573581216146" expanded="true" signature="582:780" ph="&lt;View/&gt;" />
+            <marker date="1573581216146" expanded="true" signature="861:1143" ph="{...}" />
+            <marker date="1573581216146" expanded="true" signature="906:1062" ph="{&quot;width&quot;: '100%'...}" />
+            <marker date="1573581216146" expanded="true" signature="1072:1141" ph="{&quot;color&quot;: '##00C8C8'...}" />
+            <marker date="1573581216146" expanded="true" signature="1188:1253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/results/QuestionRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <marker date="1573580934046" expanded="true" signature="7:190" ph="..." />
+            <marker date="1573580934046" expanded="true" signature="228:845" ph="{...}" />
+            <marker date="1573580934046" expanded="true" signature="241:843" ph="{...}" />
+            <marker date="1573580934046" expanded="true" signature="550:833" ph="&lt;View/&gt;" />
+            <marker date="1573580934046" expanded="true" signature="589:698" ph="&lt;View/&gt;" />
+            <marker date="1573580934046" expanded="true" signature="708:819" ph="&lt;View/&gt;" />
+            <marker date="1573580934046" expanded="true" signature="862:1232" ph="{...}" />
+            <marker date="1573580934046" expanded="true" signature="877:982" ph="{&quot;backgroundColor&quot;: 'white'...}" />
+            <marker date="1573580934046" expanded="true" signature="993:1102" ph="{&quot;borderColor&quot;: 'gray'...}" />
+            <marker date="1573580934046" expanded="true" signature="1113:1230" ph="{&quot;borderColor&quot;: 'gray'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/results/List.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <marker date="1573581905806" expanded="true" signature="7:225" ph="..." />
+            <marker date="1573581905806" expanded="true" signature="256:1413" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="281:369" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="396:487" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="521:586" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="601:1411" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="709:785" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="823:1053" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="848:1039" ph="&lt;View/&gt;" />
+            <marker date="1573581905806" expanded="true" signature="1075:1401" ph="&lt;FlatList/&gt;" />
+            <marker date="1573581905806" expanded="true" signature="1430:1718" ph="{...}" />
+            <marker date="1573581905806" expanded="true" signature="1445:1595" ph="{&quot;borderColor&quot;: &quot;##C4C4C4&quot;...}" />
+            <marker date="1573581905806" expanded="true" signature="1607:1676" ph="{&quot;color&quot;: '##726393'...}" />
+            <marker date="1573581905806" expanded="true" signature="1688:1716" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/results/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
           <folding />
         </state>
       </provider>

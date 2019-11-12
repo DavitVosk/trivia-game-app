@@ -1,10 +1,24 @@
 import React, { Component } from 'react'
 import { Text, View, FlatList } from 'react-native'
+import { BackHandler } from 'react-native';
 
 import { isIOS } from '../../../utils/OS-types'
 import QuestionRow from './QuestionRow'
 
 class List extends Component {
+  componentWillMount() {
+    BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
+  }
+
+  componentWillUnmount() {
+    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButtonClick);
+  }
+
+  handleBackButtonClick = () => {
+    this.props.navigation.navigate('Home')
+    return true;
+  };
+
   render () {
     const { questions } = this.props;
     const correctAnsweredQuestions = questions.reduce((total, q) => {
