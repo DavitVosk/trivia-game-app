@@ -28,7 +28,7 @@ class QuestionRow extends Component {
 const styles = {
   container: {
     backgroundColor:'white',
-    width: windowWidth -40,
+    width: windowWidth - 40,
     flexDirection:'row',
     minHeight: 50
   },

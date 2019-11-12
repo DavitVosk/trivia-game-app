@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 
 import List from './List'
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
+import { windowWidth } from '../../../utils/windowDimensions'
+import { isIOS } from '../../../utils/OS-types'
 
 class Results extends Component {
   static navigationOptions = {
@@ -15,13 +17,13 @@ class Results extends Component {
     return (
       <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
         <SafeAreaView style={{ flex: 1 }}>
-          <View style={{flex: 4}}>
+          <View style={{ flex: 4 }}>
             <List questions={this.props.questions} navigation={this.props.navigation} />
           </View>
 
-          <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 40 }}>
-            <LinearGradientButton btnText={'PLAY AGAIN'} onPress={() => this.props.navigation.navigate('Home')} />
-          </View>
+          <LinearGradientButton
+            containerStyle={{ width: windowWidth - 40, paddingBottom: 40, marginTop: isIOS ? 60 : 100 }}
+            btnText={'PLAY AGAIN'} onPress={() => this.props.navigation.navigate('Home')} />
         </SafeAreaView>
       </ImageBackground>
     )
