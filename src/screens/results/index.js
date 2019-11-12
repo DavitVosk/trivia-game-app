@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { Text, View, SafeAreaView, ImageBackground } from 'react-native'
+import { Text, View, SafeAreaView, ImageBackground, FlatList } from 'react-native'
 import { connect } from 'react-redux'
 
 import List from './List'
+import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
 
 class Results extends Component {
   static navigationOptions = {
@@ -10,20 +11,18 @@ class Results extends Component {
     gesturesEnabled: false
   };
 
-  render() {
-    const correctAnsweredQuestions=this.props.questions.reduce((total,q)=>{
-      if(q.answered_correctly) return total+1;
-      return total
-    }, 0);
-
+  render () {
     return (
       <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
-        <SafeAreaView>
-          <Text style={styles.result}>You scored</Text>
-          <Text style={styles.result}>{correctAnsweredQuestions}/{this.props.questions.length}</Text>
-        </SafeAreaView>
+        <SafeAreaView style={{ flex: 1 }}>
+          <View style={{flex: 4}}>
+            <List questions={this.props.questions} />
+          </View>
 
-        <List/>
+          <View style={{ flex: 1, alignItems: 'center', justifyContent: 'flex-end', paddingBottom: 40 }}>
+            <LinearGradientButton btnText={'PLAY AGAIN'} onPress={() => this.props.navigation.navigate('Home')} />
+          </View>
+        </SafeAreaView>
       </ImageBackground>
     )
   }
@@ -35,14 +34,14 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center'
   },
-  result:{
-    color:'#726393',
-    fontSize:24,
-    textAlign:'center'
+  result: {
+    color: '#726393',
+    fontSize: 24,
+    textAlign: 'center'
   }
 };
 
-const mapStateToProps = ({questions}) => {
+const mapStateToProps = ({ questions }) => {
   return {
     questions: questions.data,
   }
