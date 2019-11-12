@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icon.png" afterPath="$PROJECT_DIR$/assets/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.expo/packager-info.json" afterPath="$PROJECT_DIR$/.expo/packager-info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/splash.png" afterPath="$PROJECT_DIR$/assets/splash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,10 +20,10 @@
       <file leaf-file-name="app.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="297">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
-                <marker date="1573585861018" expanded="true" signature="348:426" ph="{&quot;image&quot;: &quot;./assets/bg.png&quot;...}" />
+                <marker date="1573587278091" expanded="true" signature="348:426" ph="{&quot;image&quot;: &quot;./assets/bg.png&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -153,14 +152,7 @@
               <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +242,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36187000" />
+    <option name="totallyTimeSpent" value="37086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -299,36 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.expo/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.expo/packager-info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/local-cli/core/index.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -544,25 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <marker date="1573506677230" expanded="true" signature="7:380" ph="..." />
-            <marker date="1573506677230" expanded="true" signature="421:529" ph="{...}" />
-            <marker date="1573506677230" expanded="true" signature="431:454" ph="{&quot;screen&quot;: Home...}" />
-            <marker date="1573506677230" expanded="true" signature="464:487" ph="{&quot;screen&quot;: Quiz...}" />
-            <marker date="1573506677230" expanded="true" signature="500:526" ph="{&quot;screen&quot;: Results...}" />
-            <marker date="1573506677230" expanded="true" signature="631:925" ph="{...}" />
-            <marker date="1573506677230" expanded="true" signature="655:813" ph="{...}" />
-            <marker date="1573506677230" expanded="true" signature="676:807" ph="{...}" />
-            <marker date="1573506677230" expanded="true" signature="826:923" ph="{...}" />
-            <marker date="1573506677230" expanded="true" signature="847:912" ph="&lt;Provider/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -738,6 +681,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1573506677230" expanded="true" signature="7:380" ph="..." />
+            <marker date="1573506677230" expanded="true" signature="421:529" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="431:454" ph="{&quot;screen&quot;: Home...}" />
+            <marker date="1573506677230" expanded="true" signature="464:487" ph="{&quot;screen&quot;: Quiz...}" />
+            <marker date="1573506677230" expanded="true" signature="500:526" ph="{&quot;screen&quot;: Results...}" />
+            <marker date="1573506677230" expanded="true" signature="631:925" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="655:813" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="676:807" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="826:923" ph="{...}" />
+            <marker date="1573506677230" expanded="true" signature="847:912" ph="&lt;Provider/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/background_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/xx.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/aa.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/splash.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -748,17 +735,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icon.png">
+    <entry file="file://$PROJECT_DIR$/assets/splash.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="297">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <marker date="1573585861018" expanded="true" signature="348:426" ph="{&quot;image&quot;: &quot;./assets/bg.png&quot;...}" />
+            <marker date="1573587278091" expanded="true" signature="348:426" ph="{&quot;image&quot;: &quot;./assets/bg.png&quot;...}" />
           </folding>
         </state>
       </provider>
