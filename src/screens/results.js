@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, SafeAreaView } from 'react-native'
+import { Text, View, SafeAreaView, ImageBackground } from 'react-native'
 import { connect } from 'react-redux'
 
 class Results extends Component {
@@ -18,15 +18,21 @@ class Results extends Component {
     });
 
     return (
-      <SafeAreaView style={styles.container}>
-        <Text>You scored {correctAnsweredQuestions.length}/{this.props.questions.length}</Text>
-      </SafeAreaView>
+      <ImageBackground source={require('../images/background_2.png')} style={styles.container}>
+        <SafeAreaView style={styles.container}>
+          <Text>You scored {correctAnsweredQuestions.length}/{this.props.questions.length}</Text>
+        </SafeAreaView>
+      </ImageBackground>
     )
   }
 }
 
 const styles = {
-  container: {}
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
 };
 
 const mapStateToProps = ({questions}) => {
