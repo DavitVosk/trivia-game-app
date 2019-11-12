@@ -1,22 +1,24 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
+import { Ionicons } from '@expo/vector-icons';
 
 import {windowWidth} from '../../../utils/windowDimensions'
 
 class QuestionRow extends Component {
   render() {
-    const {question, question_index} = this.props;
-
-    console.log('question', question)
+    const {question_data, question_index} = this.props;
+    const is_answered_correctly = question_data.answered_correctly;
+    const icon_name = is_answered_correctly ? 'md-checkmark-circle' : 'ios-remove-circle-outline';
+    const icon_color = is_answered_correctly ? 'green' : 'red';
 
     return (
       <View style={styles.container}>
        <View style={styles.view1}>
-         <Text>{question_index+1}. {question}</Text>
+         <Text>{question_index+1}. {question_data.question}</Text>
        </View>
 
         <View style={styles.view2}>
-         <Text>hi</Text>
+          <Ionicons name={icon_name} size={32} color={icon_color} />
        </View>
       </View>
     )
@@ -41,7 +43,8 @@ const styles = {
     flex: 1,
     borderColor: 'gray',
     borderWidth: .5,
-    justifyContent:'center'
+    justifyContent:'center',
+    alignItems:'center'
   }
 };
 

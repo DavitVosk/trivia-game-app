@@ -27,7 +27,7 @@ class List extends Component {
         data={questions}
         keyExtractor={(item, index) => item.question}
         renderItem={({ item, index }) =>
-           <QuestionRow question={item.question} question_index={index} />
+           <QuestionRow question_data={item} question_index={index} />
         }
         extraData={this.props}
         ListHeaderComponent={renderHeader}
