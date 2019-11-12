@@ -28,13 +28,14 @@ const styles = {
     backgroundColor:'white',
     width: windowWidth -40,
     flexDirection:'row',
-    height: 50
+    minHeight: 50
   },
   view1: {
     flex: 3,
     borderColor: 'gray',
     borderWidth: .5,
-    justifyContent:'center'
+    justifyContent:'center',
+    padding: 10
   },
   view2: {
     flex: 1,

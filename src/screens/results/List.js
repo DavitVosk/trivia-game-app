@@ -14,7 +14,7 @@ class List extends Component {
 
     const renderHeader = () => {
       return (
-        <View>
+        <View style={styles.header}>
           <Text style={styles.result}>You scored</Text>
           <Text style={styles.result}>{correctAnsweredQuestions}/{questions.length}</Text>
         </View>
@@ -26,9 +26,8 @@ class List extends Component {
         style={styles.container}
         data={questions}
         keyExtractor={(item, index) => item.question}
-        renderItem={({ item, index }) => {
-          return <QuestionRow question={item.question} question_index={index} />
-        }
+        renderItem={({ item, index }) =>
+           <QuestionRow question={item.question} question_index={index} />
         }
         extraData={this.props}
         ListHeaderComponent={renderHeader}
@@ -50,7 +49,10 @@ const styles = {
     color: '#726393',
     fontSize: 24,
     textAlign: 'center'
+  },
+  header: {
+    marginVertical: 10
   }
-}
+};
 
 export default List
