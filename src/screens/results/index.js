@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Text, View, SafeAreaView, ImageBackground } from 'react-native'
 import { connect } from 'react-redux'
 
+import List from './List'
+
 class Results extends Component {
   static navigationOptions = {
     header: null,
@@ -18,10 +20,13 @@ class Results extends Component {
     });
 
     return (
-      <ImageBackground source={require('../images/background_2.png')} style={styles.container}>
-        <SafeAreaView style={styles.container}>
-          <Text>You scored {correctAnsweredQuestions.length}/{this.props.questions.length}</Text>
+      <ImageBackground source={require('../../images/background_2.png')} style={styles.container}>
+        <SafeAreaView>
+          <Text style={styles.result}>You scored</Text>
+          <Text style={styles.result}>{correctAnsweredQuestions.length}/{this.props.questions.length}</Text>
         </SafeAreaView>
+
+        <List correctAnsweredQuestions={correctAnsweredQuestions} nonCorrectAnsweredQuestions={nonCorrectAnsweredQuestions} />
       </ImageBackground>
     )
   }
@@ -32,6 +37,11 @@ const styles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  result:{
+    color:'#726393',
+    fontSize:24,
+    textAlign:'center'
   }
 };
 
