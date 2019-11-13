@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec80e765-7ae7-4489-8a7e-0fd41485d5c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/home/index.js" afterPath="$PROJECT_DIR$/src/screens/home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" afterPath="$PROJECT_DIR$/src/screens/quiz/CardsList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/quiz/index.js" afterPath="$PROJECT_DIR$/src/screens/quiz/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/results/index.js" afterPath="$PROJECT_DIR$/src/screens/results/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/quiz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/results.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/wireframes/Home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/wireframes/Quiz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/designs/wireframes/Results.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -150,39 +155,6 @@
               <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="quiz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TriviaGameApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TriviaGameApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -267,12 +239,12 @@
       <workItem from="1573571211860" duration="4254000" />
       <workItem from="1573575714514" duration="2452000" />
       <workItem from="1573588519279" duration="1672000" />
-      <workItem from="1573631327867" duration="1404000" />
+      <workItem from="1573631327867" duration="1469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40539000" />
+    <option name="totallyTimeSpent" value="40604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1570" height="890" extended-state="0" />
@@ -493,19 +465,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="0:2770" ph="[...]" />
-            <marker date="1554500728000" expanded="true" signature="4:222" ph="{&quot;category&quot;: &quot;History&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="226:499" ph="{&quot;category&quot;: &quot;History&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="503:822" ph="{&quot;category&quot;: &quot;Entertainment: Video Games&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="826:1111" ph="{&quot;category&quot;: &quot;Entertainment: Film&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="1115:1349" ph="{&quot;category&quot;: &quot;General Knowledge&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="1353:1644" ph="{&quot;category&quot;: &quot;Entertainment: Video Games&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="1648:1872" ph="{&quot;category&quot;: &quot;Politics&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="1876:2193" ph="{&quot;category&quot;: &quot;Science: Mathematics&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="2197:2470" ph="{&quot;category&quot;: &quot;Politics&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="2474:2768" ph="{&quot;category&quot;: &quot;Entertainment: Japanese Anime &amp; Manga&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -513,12 +473,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="7:209" ph="..." />
-            <marker date="1554500728000" expanded="true" signature="244:374" ph="&lt;React.Fragment/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="405:645" ph="&lt;View/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="540:635" ph="&lt;TouchableOpacity/&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,13 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="77:378" ph="{...}" />
-            <marker date="1554500728000" expanded="true" signature="89:127" ph="{...}" />
-            <marker date="1554500728000" expanded="true" signature="142:202" ph="{&quot;alignItems&quot;: &quot;center&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="211:335" ph="{&quot;justifyContent&quot;: &quot;center&quot;...}" />
-            <marker date="1554500728000" expanded="true" signature="349:376" ph="{&quot;textAlign&quot;: center...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,11 +535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="7:118" ph="..." />
-            <marker date="1554500728000" expanded="true" signature="143:437" ph="&lt;View/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="338:427" ph="&lt;TouchableOpacity/&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -598,13 +543,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1554500728000" expanded="true" signature="7:118" ph="..." />
-            <marker date="1554500728000" expanded="true" signature="143:547" ph="&lt;View/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="223:325" ph="&lt;View/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="355:443" ph="&lt;TouchableOpacity/&gt;" />
-            <marker date="1554500728000" expanded="true" signature="448:537" ph="&lt;TouchableOpacity/&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
