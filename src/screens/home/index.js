@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView, Platform } from 'react-native'
+import { Text, View, ImageBackground, Animated, Easing, SafeAreaView } from 'react-native'
 
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
 import styles from './styles'

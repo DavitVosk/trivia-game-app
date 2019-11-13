@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Animated, Dimensions } from 'react-native';
+import { View, Animated } from 'react-native';
 
 import { windowWidth } from '../../../utils/windowDimensions'
 import styles from './styles'

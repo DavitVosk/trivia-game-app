@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, SafeAreaView, ImageBackground, FlatList, Platform } from 'react-native'
+import { View, SafeAreaView, ImageBackground } from 'react-native'
 import { connect } from 'react-redux'
 
 import List from './List'

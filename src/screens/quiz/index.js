@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground, Platform } from 'react-native';
+import { View, SafeAreaView, ImageBackground } from 'react-native';
 import { connect } from 'react-redux'
 
 import { fetchQuestions, answerToQuestion } from '../../redux/actions/Questions';
