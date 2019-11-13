@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Text, View, TouchableOpacity, SafeAreaView, ImageBackground, Platform } from 'react-native';
 import { connect } from 'react-redux'
-import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import { fetchQuestions, answerToQuestion } from '../../redux/actions/Questions';
 import CardsList from './CardsList';
 import Loading from './Loading';
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
 import LinearBorderGradientButton from '../../../CommonComponents/LinearBorderGradientButton'
+import styles from './styles'
 
 class Quiz extends Component {
   constructor (props) {
@@ -56,27 +56,6 @@ class Quiz extends Component {
     )
   }
 }
-
-const styles = {
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  btnContainer:{
-    flexDirection: 'row',
-    flex: 1,
-    marginHorizontal: 30,
-    ...Platform.select({
-      ios: {
-        paddingBottom: isIphoneX() ? 20 : 40
-      },
-      android: {
-        paddingBottom: 40
-      },
-    }),
-  }
-};
 
 const mapStateToProps = ({ questions }) => {
   return {

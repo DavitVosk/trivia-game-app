@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 import { Text, View, SafeAreaView, ImageBackground, FlatList, Platform } from 'react-native'
 import { connect } from 'react-redux'
-import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import List from './List'
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
-import { windowWidth } from '../../../utils/windowDimensions'
-import { isIOS } from '../../../utils/OS-types'
+import styles from './styles'
 
 class Results extends Component {
   static navigationOptions = {
@@ -30,31 +28,6 @@ class Results extends Component {
     )
   }
 }
-
-const styles = {
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  result: {
-    color: '#726393',
-    fontSize: 24,
-    textAlign: 'center'
-  },
-  btnContainer: {
-    width: windowWidth - 40,
-    marginTop: isIOS ? 60 : 100,
-    ...Platform.select({
-      ios: {
-        paddingBottom: isIphoneX() ? 20 : 40
-      },
-      android: {
-        paddingBottom: 40
-      },
-    }),
-  }
-};
 
 const mapStateToProps = ({ questions }) => {
   return {

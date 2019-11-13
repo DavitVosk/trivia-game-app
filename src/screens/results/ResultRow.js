@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 
-import {windowWidth} from '../../../utils/windowDimensions'
+import styles from './styles'
 
 class QuestionRow extends Component {
   render() {
@@ -12,40 +12,17 @@ class QuestionRow extends Component {
     const icon_color = is_answered_correctly ? 'green' : 'red';
 
     return (
-      <View style={styles.container}>
-       <View style={styles.view1}>
+      <View style={styles.rowContainer}>
+       <View style={styles.rowFirstView}>
          <Text>{question_index+1}. {question_data.question}</Text>
        </View>
 
-        <View style={styles.view2}>
+        <View style={styles.rowSecondView}>
           <Ionicons name={icon_name} size={32} color={icon_color} />
        </View>
       </View>
     )
   }
 }
-
-const styles = {
-  container: {
-    backgroundColor:'white',
-    width: windowWidth - 40,
-    flexDirection:'row',
-    minHeight: 50
-  },
-  view1: {
-    flex: 3,
-    borderColor: 'gray',
-    borderWidth: .5,
-    justifyContent:'center',
-    padding: 20
-  },
-  view2: {
-    flex: 1,
-    borderColor: 'gray',
-    borderWidth: .5,
-    justifyContent:'center',
-    alignItems:'center'
-  }
-};
 
 export default QuestionRow

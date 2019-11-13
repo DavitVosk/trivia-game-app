@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Text, View, ImageBackground, Image, Animated, Easing, SafeAreaView, Platform } from 'react-native'
-import { isIphoneX } from 'react-native-iphone-x-helper'
 
 import LinearGradientButton from '../../../CommonComponents/LinearGradientButton'
+import styles from './styles'
 
 class Home extends Component {
   constructor () {
@@ -98,33 +98,5 @@ class Home extends Component {
     )
   }
 }
-
-const styles = {
-  container: { height: '100%', width: '100%', alignItems: 'center', justifyContent: 'center' },
-  logoPiece: { height: 63, width: 63 },
-  questionMark: { height: 36.33, width: 21.8, position: 'absolute' },
-  bigTitle: {
-    textAlign: 'center',
-    fontSize: 32,
-    fontFamily: 'Montserrat',
-    color: '#7E768E',
-    lineHeight: 35,
-    fontWeight: '900'
-  },
-  smallTitle: { textAlign: 'center', fontSize: 28, fontFamily: 'Roboto', color: '#615E67' },
-  btnContainer: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    ...Platform.select({
-      ios: {
-        paddingBottom: isIphoneX() ? 20 : 40
-      },
-      android: {
-        paddingBottom: 0
-      },
-    }),
-  }
-};
 
 export default Home

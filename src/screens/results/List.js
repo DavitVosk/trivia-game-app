@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Text, View, FlatList } from 'react-native'
 import { BackHandler } from 'react-native';
 
-import { isIOS } from '../../../utils/OS-types'
-import QuestionRow from './QuestionRow'
+import ResultRow from './ResultRow'
+import styles from './styles'
 
 class List extends Component {
   componentWillMount() {
@@ -37,11 +37,11 @@ class List extends Component {
 
     return (
       <FlatList
-        style={styles.container}
+        style={styles.listContainer}
         data={questions}
         keyExtractor={(item, index) => item.question}
         renderItem={({ item, index }) =>
-           <QuestionRow question_data={item} question_index={index} />
+           <ResultRow question_data={item} question_index={index} />
         }
         extraData={this.props}
         ListHeaderComponent={renderHeader}
@@ -49,24 +49,5 @@ class List extends Component {
     )
   }
 }
-
-const styles = {
-  container: {
-    flex: 1,
-    marginTop: isIOS ? 60 : 100,
-    borderWidth: .5,
-    borderRadius: 10,
-    borderColor: "#C4C4C4",
-    backgroundColor:'white'
-  },
-  result: {
-    color: '#726393',
-    fontSize: 24,
-    textAlign: 'center'
-  },
-  header: {
-    marginVertical: 10
-  }
-};
 
 export default List

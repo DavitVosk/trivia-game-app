@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text, Animated, Dimensions } from 'react-native';
 
-import { isIOS } from '../../../utils/OS-types'
 import { windowWidth } from '../../../utils/windowDimensions'
+import styles from './styles'
 
 import Card from './Card'
 
@@ -76,18 +76,11 @@ class CardsList extends Component {
 
   render () {
     return (
-      <View style={{flex: 1, marginTop: isIOS ? 60 : 100}}>
+      <View style={styles.cardsListContainer}>
         {this.renderCards()}
       </View>
     )
   }
 }
-
-const styles = {
-  cardStyle: {
-    position: 'absolute',
-    width: windowWidth
-  }
-};
 
 export default CardsList;
